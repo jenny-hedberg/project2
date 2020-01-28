@@ -1,0 +1,111 @@
+/******* BASE *******/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+.full-width {
+  Width:1240px;
+  margin:auto;
+
+}
+.half-width {
+  width:620px;
+  float: left;
+}
+
+.third-width{
+  Width:400px;
+  height: 250px;
+  float:left;
+}
+
+/****** Header *****/
+Header{
+  height:450px;
+  background-size: cover;
+
+}
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: bold;
+  font-size:30px;
+  color:#a4c299;
+  text-transform: uppercase;
+  padding:10px;
+}
+
+header h1 span {
+  color:black;
+}
+
+nav {
+    float: right;
+    padding:20px;
+}
+nav ul li{
+    display: inline-block;
+    text-transform:uppercase;
+    font-size:14px;
+    color:#a4c299;
+    padding-left: 20px;
+}
+img {
+
+  border-top:4px solid #a4c299;
+  border-bottom:4px solid #a4c299;
+}
+/***** welcome *****/
+#welcome .full-width {
+
+}
+#welcome h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color:#a4c299;
+  text-transform: uppercase;
+}
+#welcome p {
+  margin-left: 100px;
+  margin-right: 110px;
+  font-size: 16px;
+}
+
+/****** info******/
+
+#info .full-width {
+  padding:0px;
+}
+/*******
+#info .third-width{
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+******/
+}
+#info h3{
+  font-size: 18px;
+  text-align: left;
+
+}
+#info p{
+  font-size:16px;
+  text-align: left;
+  padding-right: 50px;
+  margin: 0px;
+
+}
+/***** footer *****/
+#endword .full-width{
+padding:130px;
+}
+#endword h4{
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+}
+#endword h4 span {
+  font-family: 'Lobster', cursive;
+  color: #a4c299;
+}
