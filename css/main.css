@@ -16,13 +16,13 @@ body {
 
 .third-width{
   Width:400px;
-  height: 250px;
+  height: 200px;
   float:left;
 }
 
 /****** Header *****/
 Header{
-  height:450px;
+  height:410px;
   background-size: cover;
 
 }
@@ -46,9 +46,10 @@ nav {
 nav ul li{
     display: inline-block;
     text-transform:uppercase;
-    font-size:14px;
+    font-size:16px;
+    font-weight: bold;
     color:#a4c299;
-    padding-left: 20px;
+    padding-right: 5px;
 }
 img {
 
@@ -77,15 +78,16 @@ img {
 #info .full-width {
   padding:0px;
 }
-/*******
-#info .third-width{
+
+#info .third-width {
+  padding-left: 10px;
+  margin: auto;
   border-top: 1px solid black;
-  border-right: 1px solid black;
   border-bottom: 1px solid black;
-******/
+
 }
 #info h3{
-  font-size: 18px;
+  font-size: 15px;
   text-align: left;
 
 }
@@ -97,9 +99,7 @@ img {
 
 }
 /***** footer *****/
-#endword .full-width{
-padding:130px;
-}
+
 #endword h4{
   text-align: center;
   font-size: 18px;
